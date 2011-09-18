@@ -6,11 +6,11 @@ puts "Scrapping Departamento IDs"
 
 CSV.open("departamentos.csv", "wb") do |csv|
 
-  CSV.foreach('provincias.csv') do |row|
+  CSV.foreach('data/provincias.csv') do |row|
     xml = Hpricot::XML(HTTParty.get("#{DEPTOS_URL}?d=#{row[0]}"))
   
     (xml/:option).each do |p|
-       csv << [row[0],p.attributes['value'],p.innerHTML]
+       csv << [row[0], p.attributes['value'], p.innerHTML]
      end
   end
 end
