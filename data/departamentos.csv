@@ -1,0 +1,577 @@
+06,999,Total provincial
+06,000,Total provincial y partidos   
+06,998,24 Partidos del GBA
+06,997,Interior de la Provincia
+06,854,25 de Mayo
+06,588,9 de Julio
+06,007,Adolfo Alsina
+06,014,Adolfo Gonzales Chaves
+06,021,Alberti
+06,028,Almirante Brown
+06,077,Arrecifes
+06,035,Avellaneda
+06,042,Ayacucho
+06,049,Azul
+06,056,Bahía Blanca
+06,063,Balcarce
+06,070,Baradero
+06,084,Benito Juárez
+06,091,Berazategui
+06,098,Berisso
+06,105,Bolívar
+06,112,Bragado
+06,119,Brandsen
+06,126,Campana
+06,134,Cañuelas
+06,140,Capitán Sarmiento
+06,147,Carlos Casares
+06,154,Carlos Tejedor
+06,161,Carmen de Areco
+06,168,Castelli
+06,210,Chacabuco
+06,217,Chascomús
+06,224,Chivilcoy
+06,175,Colón
+06,182,Coronel de Marina Leonardo Rosales
+06,189,Coronel Dorrego
+06,196,Coronel Pringles
+06,203,Coronel Suárez
+06,231,Daireaux
+06,238,Dolores
+06,245,Ensenada
+06,252,Escobar
+06,260,Esteban Echeverría
+06,266,Exaltación de la Cruz
+06,270,Ezeiza
+06,274,Florencio Varela
+06,277,Florentino Ameghino
+06,280,General Alvarado
+06,287,General Alvear
+06,294,General Arenales
+06,301,General Belgrano
+06,308,General Guido
+06,315,General Juan Madariaga
+06,322,General La Madrid
+06,329,General Las Heras
+06,336,General Lavalle
+06,343,General Paz
+06,351,General Pinto
+06,357,General Pueyrredón
+06,364,General Rodríguez
+06,371,General San Martín
+06,385,General Viamonte
+06,392,General Villegas
+06,399,Guaminí
+06,406,Hipólito Yrigoyen
+06,408,Hurlingham
+06,410,Ituzaingó
+06,412,José C. Paz
+06,413,Junín
+06,420,La Costa
+06,427,La Matanza
+06,441,La Plata
+06,434,Lanús
+06,448,Laprida
+06,455,Las Flores
+06,462,Leandro N. Alem
+06,469,Lincoln
+06,476,Lobería
+06,483,Lobos
+06,490,Lomas de Zamora
+06,497,Luján
+06,505,Magdalena
+06,511,Maipú
+06,515,Malvinas Argentinas
+06,518,Mar Chiquita
+06,525,Marcos Paz
+06,532,Mercedes
+06,539,Merlo
+06,547,Monte
+06,553,Monte Hermoso
+06,560,Moreno
+06,568,Morón
+06,574,Navarro
+06,581,Necochea
+06,595,Olavarría
+06,602,Patagones
+06,609,Pehuajó
+06,616,Pellegrini
+06,623,Pergamino
+06,630,Pila
+06,638,Pilar
+06,644,Pinamar
+06,648,Presidente Perón
+06,651,Puán
+06,655,Punta Indio
+06,658,Quilmes
+06,665,Ramallo
+06,672,Rauch
+06,679,Rivadavia
+06,686,Rojas
+06,693,Roque Pérez
+06,700,Saavedra
+06,707,Saladillo
+06,721,Salliqueló
+06,714,Salto
+06,728,San Andrés de Giles
+06,735,San Antonio de Areco
+06,742,San Cayetano
+06,749,San Fernando
+06,756,San Isidro
+06,760,San Miguel
+06,763,San Nicolás
+06,770,San Pedro
+06,778,San Vicente
+06,784,Suipacha
+06,791,Tandil
+06,798,Tapalqué
+06,805,Tigre
+06,812,Tordillo
+06,819,Tornquist
+06,826,Trenque Lauquen
+06,833,Tres Arroyos
+06,840,Tres de Febrero
+06,847,Tres Lomas
+06,861,Vicente López
+06,868,Villa Gesell
+06,875,Villarino
+06,882,Zárate
+10,999,Total provincial
+10,000,Total provincial y departamentos   
+10,007,Ambato
+10,014,Ancasti
+10,021,Andalgalá
+10,028,Antofagasta de la Sierra
+10,035,Belén
+10,042,Capayán
+10,049,Capital
+10,056,El Alto
+10,063,Fray Mamerto Esquiú
+10,070,La Paz
+10,077,Paclín
+10,084,Pomán
+10,091,Santa María
+10,098,Santa Rosa
+10,105,Tinogasta
+10,112,Valle Viejo
+22,999,Total provincial
+22,000,Total provincial y departamentos   
+22,036,12 de Octubre
+22,126,1 de Mayo
+22,039,2 de Abril
+22,168,25 de Mayo
+22,105,9 de Julio
+22,007,Almirante Brown
+22,014,Bermejo
+22,028,Chacabuco
+22,021,Comandante Fernández
+22,043,Fray Justo Santa María de Oro
+22,049,General Belgrano
+22,056,General Donovan
+22,063,General Güemes
+22,070,Independencia
+22,077,Libertad 
+22,084,Libertador General San Martín
+22,091,Maipú
+22,098,Mayor Luis J. Fontana
+22,112,O' Higgins
+22,119,Presidencia de la Plaza
+22,133,Quitilipi
+22,140,San Fernando
+22,147,San Lorenzo
+22,154,Sargento Cabral
+22,161,Tapenagá
+26,999,Total provincial
+26,000,Total provincial y departamentos   
+26,007,Biedma
+26,014,Cushamen
+26,021,Escalante
+26,028,Florentino Ameghino
+26,035,Futaleufú
+26,042,Gaiman
+26,049,Gastre
+26,056,Languiñeo
+26,063,Mártires
+26,070,Paso de Indios
+26,077,Rawson
+26,084,Río Senguer
+26,091,Sarmiento
+26,098,Tehuelches
+26,105,Telsen
+02,999,Total jurisdicción
+02,000,Total jurisdicción y comunas  
+02,001,Comuna 1
+02,002,Comuna 2
+02,003,Comuna 3
+02,004,Comuna 4
+02,005,Comuna 5
+02,006,Comuna 6
+02,007,Comuna 7
+02,008,Comuna 8
+02,009,Comuna 9
+02,010,Comuna 10
+02,011,Comuna 11
+02,012,Comuna 12
+02,013,Comuna 13
+02,014,Comuna 14
+02,015,Comuna 15
+14,999,Total provincial
+14,000,Total provincial y departamentos   
+14,007,Calamuchita
+14,014,Capital
+14,021,Colón
+14,028,Cruz del Eje
+14,035,General Roca
+14,042,General San Martín
+14,049,Ischilín
+14,056,Juárez Celman
+14,063,Marcos Juárez
+14,070,Minas
+14,077,Pocho
+14,084,Presidente Roque Sáenz Peña
+14,091,Punilla
+14,098,Río Cuarto
+14,105,Río Primero
+14,112,Río Seco
+14,119,Río Segundo 
+14,126,San Alberto
+14,133,San Javier
+14,140,San Justo 
+14,147,Santa María
+14,154,Sobremonte
+14,161,Tercero Arriba
+14,168,Totoral
+14,175,Tulumba
+14,182,Unión
+18,999,Total provincial
+18,000,Total provincial y departamentos   
+18,007,Bella Vista
+18,014,Berón de Astrada
+18,021,Capital
+18,028,Concepción
+18,035,Curuzú Cuatiá
+18,042,Empedrado
+18,049,Esquina
+18,056,General Alvear
+18,063,General Paz
+18,070,Goya
+18,077,Itatí
+18,084,Ituzaingó
+18,091,Lavalle
+18,098,Mburucuyá
+18,105,Mercedes
+18,112,Monte Caseros
+18,119,Paso de los Libres
+18,126,Saladas
+18,133,San Cosme
+18,140,San Luis del Palmar
+18,147,San Martín
+18,154,San Miguel
+18,161,San Roque
+18,168,Santo Tomé
+18,175,Sauce
+30,999,Total provincial
+30,000,Total provincial y departamentos   
+30,008,Colón
+30,015,Concordia
+30,021,Diamante
+30,028,Federación
+30,035,Federal
+30,042,Feliciano
+30,049,Gualeguay
+30,056,Gualeguaychú
+30,063,Islas del Ibicuy
+30,070,La Paz
+30,077,Nogoyá
+30,084,Paraná
+30,088,San Salvador
+30,091,Tala
+30,098,Uruguay
+30,105,Victoria
+30,113,Villaguay
+34,999,Total provincial
+34,000,Total provincial y departamentos   
+34,007,Bermejo
+34,014,Formosa
+34,021,Laishi
+34,028,Matacos
+34,035,Patiño
+34,042,Pilagás
+34,049,Pilcomayo
+34,056,Pirané
+34,063,Ramón Lista
+38,999,Total provincial
+38,000,Total provincial y departamentos   
+38,007,Cochinoca
+38,021,Dr. Manuel Belgrano
+38,014,El Carmen
+38,028,Humahuaca
+38,035,Ledesma
+38,042,Palpalá
+38,049,Rinconada
+38,056,San Antonio
+38,063,San Pedro
+38,070,Santa Bárbara
+38,077,Santa Catalina
+38,084,Susques
+38,094,Tilcara
+38,098,Tumbaya
+38,105,Valle Grande
+38,112,Yaví
+42,999,Total provincial
+42,000,Total provincial y departamentos   
+42,007,Atreucó
+42,014,Caleu Caleu
+42,021,Capital
+42,028,Catriló
+42,049,Chalileo
+42,056,Chapaleufú
+42,063,Chical Co
+42,035,Conhelo
+42,042,Curacó
+42,070,Guatraché
+42,077,Hucal
+42,084,Lihuel Calel
+42,091,Limay Mahuida
+42,098,Loventué
+42,105,Maracó
+42,112,Puelén
+42,119,Quemú Quemú
+42,126,Rancul
+42,133,Realicó
+42,140,Toay
+42,147,Trenel
+42,154,Utracán
+46,999,Total provincial
+46,000,Total provincial y departamentos   
+46,007,Arauco
+46,014,Capital
+46,021,Castro Barros
+46,035,Chamical
+46,042,Chilecito
+46,028,Coronel Felipe Varela
+46,049,Famatina
+46,056,General Ángel Vicente Peñaloza
+46,063,General Belgrano
+46,070,General Juan Facundo Quiroga
+46,077,General Lamadrid
+46,084,General Ocampo
+46,091,General San Martín
+46,105,Independencia
+46,112,Rosario Vera Peñaloza
+46,119,San Blas de los Sauces
+46,126,Sanagasta
+46,098,Vinchina
+50,999,Total provincial
+50,000,Total provincial y departamentos   
+50,007,Capital
+50,014,General Alvear
+50,021,Godoy Cruz
+50,028,Guaymallén
+50,035,Junín
+50,042,La Paz
+50,049,Las Heras
+50,056,Lavalle
+50,063,Luján de Cuyo
+50,070,Maipú
+50,077,Malargüe
+50,084,Rivadavia
+50,091,San Carlos
+50,098,San Martín
+50,105,San Rafael
+50,112,Santa Rosa
+50,119,Tunuyán
+50,126,Tupungato
+54,999,Total provincial
+54,000,Total provincial y departamentos   
+54,119,25 de Mayo
+54,007,Apóstoles
+54,014,Cainguás
+54,021,Candelaria
+54,028,Capital
+54,035,Concepción
+54,042,Eldorado
+54,049,General Manuel Belgrano
+54,056,Guaraní
+54,063,Iguazú
+54,070,Leandro N. Alem
+54,077,Libertador General San Martín
+54,084,Montecarlo
+54,091,Oberá
+54,098,San Ignacio
+54,105,San Javier
+54,112,San Pedro
+58,999,Total provincial
+58,000,Total provincial y departamentos   
+58,007,Aluminé
+58,014,Añelo
+58,021,Catán Lil
+58,042,Chos Malal
+58,028,Collón Curá
+58,035,Confluencia
+58,049,Huiliches
+58,056,Lácar
+58,063,Loncopué
+58,070,Los Lagos
+58,077,Minas
+58,084,Ñorquín
+58,091,Pehuenches
+58,098,Picún Leufú
+58,105,Picunches
+58,112,Zapala
+62,999,Total provincial
+62,000,Total provincial y departamentos   
+62,091,25 de Mayo
+62,049,9 de Julio
+62,007,Adolfo Alsina
+62,014,Avellaneda
+62,021,Bariloche
+62,028,Conesa
+62,035,El Cuy
+62,042,General Roca
+62,056,Ñorquinco
+62,063,Pichi Mahuida
+62,070,Pilcaniyeu
+62,077,San Antonio
+62,084,Valcheta
+66,999,Total provincial
+66,000,Total provincial y departamentos   
+66,007,Anta
+66,014,Cachi
+66,021,Cafayate
+66,028,Capital
+66,035,Cerrillos
+66,042,Chicoana
+66,049,General Güemes
+66,056,General José de San Martín
+66,063,Guachipas
+66,070,Iruya
+66,077,La Caldera
+66,084,La Candelaria
+66,091,La Poma
+66,098,La Viña
+66,105,Los Andes
+66,112,Metán
+66,119,Molinos
+66,126,Orán
+66,133,Rivadavia
+66,140,Rosario de la Frontera
+66,147,Rosario de Lerma
+66,154,San Carlos
+66,161,Santa Victoria
+70,999,Total provincial
+70,000,Total provincial y departamentos   
+70,126,25 de Mayo
+70,063,9 de Julio
+70,007,Albardón
+70,014,Angaco
+70,021,Calingasta
+70,028,Capital
+70,035,Caucete
+70,042,Chimbas
+70,049,Iglesia
+70,056,Jáchal
+70,070,Pocito
+70,077,Rawson
+70,084,Rivadavia
+70,091,San Martín
+70,098,Santa Lucía
+70,105,Sarmiento
+70,112,Ullum
+70,119,Valle Fértil
+70,133,Zonda
+74,999,Total provincial
+74,000,Total provincial y departamentos   
+74,007,Ayacucho
+74,014,Belgrano
+74,028,Chacabuco
+74,021,Coronel Pringles
+74,035,General Pedernera
+74,042,Gobernador Dupuy
+74,049,Junín
+74,056,La Capital
+74,063,Libertador General San Martín
+78,999,Total provincial
+78,000,Total provincial y departamentos   
+78,007,Corpen Aike
+78,014,Deseado
+78,021,Güer Aike
+78,028,Lago Argentino
+78,035,Lago Buenos Aires
+78,042,Magallanes
+78,049,Río Chico
+82,999,Total provincial
+82,000,Total provincial y departamentos   
+82,077,9 de Julio
+82,007,Belgrano
+82,014,Caseros
+82,021,Castellanos
+82,028,Constitución
+82,035,Garay
+82,042,General López
+82,049,General Obligado
+82,056,Iriondo
+82,063,La Capital
+82,070,Las Colonias
+82,084,Rosario
+82,091,San Cristóbal
+82,098,San Javier
+82,105,San Jerónimo
+82,112,San Justo
+82,119,San Lorenzo
+82,126,San Martín
+82,133,Vera
+86,999,Total provincial
+86,000,Total provincial y departamentos   
+86,007,Aguirre
+86,014,Alberdi
+86,021,Atamisqui
+86,028,Avellaneda
+86,035,Banda
+86,042,Belgrano
+86,049,Capital
+86,063,Choya
+86,056,Copo
+86,070,Figueroa
+86,077,General Taboada
+86,084,Guasayán
+86,091,Jiménez
+86,098,Juan F. Ibarra
+86,105,Loreto
+86,112,Mitre
+86,119,Moreno
+86,126,Ojo de Agua
+86,133,Pellegrini
+86,140,Quebrachos
+86,147,Río Hondo
+86,154,Rivadavia
+86,161,Robles
+86,168,Salavina
+86,175,San Martín
+86,182,Sarmiento
+86,189,Silípica
+94,999,Total provincial
+94,000,Total provincial y departamentos   
+94,028,Antártida Argentina
+94,021,Islas del Atlántico Sur
+94,007,Río Grande
+94,014,Ushuaia
+90,999,Total provincial
+90,000,Total provincial y departamentos   
+90,007,Burruyacú
+90,084,Capital
+90,021,Chicligasta
+90,014,Cruz Alta
+90,028,Famaillá
+90,035,Graneros
+90,042,Juan Bautista Alberdi
+90,049,La Cocha
+90,056,Leales
+90,063,Lules
+90,070,Monteros
+90,077,Río Chico
+90,091,Simoca
+90,098,Tafí del Valle
+90,105,Tafí Viejo
+90,112,Trancas
+90,119,Yerba Buena
