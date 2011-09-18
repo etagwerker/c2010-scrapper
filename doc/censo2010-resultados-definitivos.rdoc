@@ -33,6 +33,8 @@ Alternativas de parámetro p:
 
 Alternativas de parámetro d:
 
+Ver data/departamentos.csv
+
 Alternativas de parámetro t: 
 
 0 (Todas)
