@@ -1,0 +1,10 @@
+# default.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+hpricot -v0.8.4
+httparty -v0.8.0
+mechanize -v2.0.1
+multi_json -v1.0.3
+multi_xml -v0.4.0
+net-http-digest_auth -v1.1.1
+net-http-persistent -v1.9
+nokogiri -v1.5.0
+webrobots -v0.0.11
