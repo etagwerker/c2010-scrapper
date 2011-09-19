@@ -73,3 +73,8 @@ Alternativas de d:
 94 (Tierra del Fuego)
 90 (Tucumán)
 
+Archivos con los que hubo problemas:
+
+Error downloading: http://www.censo2010.indec.gov.ar/definitivos_bajarArchivo.asp?idc=262&arch=x to scraped/pcia18-depto000-Todas-20.xls
+Error downloading: http://www.censo2010.indec.gov.ar/definitivos_bajarArchivo.asp?idc=691&arch=x to scraped/pcia82-depto000-Todas-20.xls
+Error downloading: http://www.censo2010.indec.gov.ar/definitivos_bajarArchivo.asp?idc=712&arch=x to scraped/pcia86-depto999-Todas-4.xls
