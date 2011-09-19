@@ -32,15 +32,21 @@ CSV.foreach('data/departamentos.csv') do |row|
           scraped[uri] = true
           puts "Downloading http://www.censo2010.indec.gov.ar/#{uri}"
           begin
-            agent.get("http://www.censo2010.indec.gov.ar/#{uri}").save_as "scraped/pcia#{provincia_id}-depto#{departamento_id}-#{unidades[unidad]}-#{index}.xls"
-          rescue Error => e
+            file_path = "scraped/pcia#{provincia_id}-depto#{departamento_id}-#{unidades[unidad]}-#{index}.xls"
+            if Pathname.new(file_path).exist?
+              puts "Already downloaded: #{file_path}"
+            else
+              agent.get("http://www.censo2010.indec.gov.ar/#{uri}").save_as file_path              
+            end
+
+          rescue Exception => e
             puts "Error downloading: http://www.censo2010.indec.gov.ar/#{uri} to scraped/pcia#{provincia_id}-depto#{departamento_id}-#{unidades[unidad]}-#{index}.xls"
             puts e.message
           end
           puts "Downloaded!"
         end
       end
-    end
+    end if (xml/:a)
     puts "Scraped!"
   end
 end
