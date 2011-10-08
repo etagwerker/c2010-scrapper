@@ -3,7 +3,7 @@
 require 'rubygems'
 require 'spreadsheet'
 
-CAPTURES_REGEX = /.*. Provincia de (.*), partido ([^.]*). (.*)/
+CAPTURES_REGEX = /.*. Provincia del? (.*), (departamento|partido) ([^.]*). (.*)/
 POBLACION_REGEX = /Población total por sexo e índice de masculinidad, .*/
 
 file = File.open('poblacion.sql', 'w')
@@ -18,16 +18,23 @@ Dir.glob('scraped/Poblacion/*.xls').each do |file_name|
     puts "Hubo un problema con este archivo: #{file_name}"
     break
   end
+  
+  if depto_id != "000"
+    next
+  end
 
   book = Spreadsheet.open file_name
   worksheet = book.worksheet 0
   first_cell = worksheet.row(0)[0]
   if first_cell =~ CAPTURES_REGEX
     provincia = $1
-    depto = $2
-    description = $3
+    tipo_de_departamento = $2
+    depto = $3
+    description = $4
   else
     puts "Salteando #{file_name}"
+    puts "First cell: "
+    puts first_cell
     next
   end
   
