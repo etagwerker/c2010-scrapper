@@ -2,12 +2,14 @@
 
 require 'rubygems'
 require 'spreadsheet'
+require 'table_constants'
 
 PROVINCIA_CAPTURES_REGEX = /.*. Provincia del? (.*), (departamento|partido) ([^.]*). (.*)/
 CAPITAL_CAPTURES_REGEX = /.*. (Ciudad Autónoma de Buenos Aires), (Comuna) (\d+). (.*)/
 POBLACION_REGEX = /Población total por sexo e índice de masculinidad, .*/
 
 file = File.open('poblacion.sql', 'w')
+file.puts DEPARTAMENTOS_TABLE_SQL
 
 puts "Generando SQL para información de Población"
 
@@ -43,7 +45,7 @@ Dir.glob('scraped/Poblacion/*.xls').each do |file_name|
   
   worksheet.each_with_index do |row, index|
     if row[0] =~ /^(\d+)( y más)?$/
-      file.puts "INSERT INTO POBLACION (PROVINCIA, DEPARTAMENTO, EDAD, VARONES_COUNT, MUJERES_COUNT) VALUES('#{provincia}', '#{depto}', #{row[0].to_i}, #{row[2].to_i}, #{row[3].to_i});"
+      file.puts "INSERT INTO departamentos (provincia, nombre, edad, total_varones, total_mujeres) VALUES('#{provincia}', '#{depto}', #{row[0].to_i}, #{row[2].to_i}, #{row[3].to_i});"
     end
     
     if index > 150
