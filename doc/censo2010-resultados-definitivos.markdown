@@ -1,6 +1,6 @@
 # "Web Service" Definitivos Consulta:
 
-http://www.censo2010.indec.gov.ar/ajax_Definitivos_Consulta.asp?p=xxx&d=yyyy&t=zzzz
+http://www.censo2010.indec.gov.ar/ajax\_Definitivos\_Consulta.asp?p=xxx&d=yyyy&t=zzzz
 
 Devuelve HTML con referencias a archivos XSL con información. (¿por qué no CSV? :s)
 
