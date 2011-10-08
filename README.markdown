@@ -20,25 +20,25 @@ Para correrlo:
 
     ruby scrape.rb
 
-Esto va a generar el directorio scraped y va a tirar todos los .xls ahí adentro. 
+Esto va a generar el directorio *./scraped* y va a tirar todos los .xls ahí adentro. 
 
     ruby scrape_viviendas.rb
 
-Esto va a generar el directorio scraped/Viviendas y va a tirar todos los .xls ahí adentro. 
+Esto va a generar el directorio *./scraped/Viviendas* y va a tirar todos los .xls ahí adentro. 
 
     ruby scrape_poblacion.rb
 
-Esto va a generar el directorio scraped/Poblacion y va a tirar todos los .xls ahí adentro. 
+Esto va a generar el directorio *./scraped/Poblacion* y va a tirar todos los .xls ahí adentro. 
 
     ruby scrape_hogares.rb
 
-Esto va a generar el directorio scraped/Hogares y va a tirar todos los .xls ahí adentro. 
+Esto va a generar el directorio *./scraped/Hogares* y va a tirar todos los .xls ahí adentro. 
 
 ### Procesar Archivos .xls
 
 Este script depende de (scrape_poblacion.rb)
 
-    ruby process\_poblacion\_spreadsheets.rb
+    ruby process_poblacion_spreadsheets.rb
 
 Genera un archivo poblacion.sql con las siguientes columnas: PROVINCIA, DEPARTAMENTO, EDAD, VARONES\_COUNT, MUJERES\_COUNT
 
