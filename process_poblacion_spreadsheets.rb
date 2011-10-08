@@ -41,8 +41,8 @@ Dir.glob('scraped/Poblacion/*.xls').each do |file_name|
   puts "Generando SQL para #{provincia}: #{depto}"
   
   worksheet.each_with_index do |row, index|
-    if row[0] =~ /^(\d+)$/
-      file.puts "INSERT INTO POBLACION VALUES(#{provincia_id}, #{depto_id}, #{row[0]}, #{row[2].to_i}, #{row[3].to_i});"
+    if row[0] =~ /^(\d+)( y más)?$/
+      file.puts "INSERT INTO POBLACION (PROVINCIA, DEPARTAMENTO, EDAD, VARONES_COUNT, MUJERES_COUNT) VALUES('#{provincia}', '#{depto}', #{row[0].to_i}, #{row[2].to_i}, #{row[3].to_i});"
     end
     
     if index > 150
