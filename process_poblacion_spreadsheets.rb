@@ -3,7 +3,8 @@
 require 'rubygems'
 require 'spreadsheet'
 
-CAPTURES_REGEX = /.*. Provincia del? (.*), (departamento|partido) ([^.]*). (.*)/
+PROVINCIA_CAPTURES_REGEX = /.*. Provincia del? (.*), (departamento|partido) ([^.]*). (.*)/
+CAPITAL_CAPTURES_REGEX = /.*. (Ciudad Autónoma de Buenos Aires), (Comuna) (\d+). (.*)/
 POBLACION_REGEX = /Población total por sexo e índice de masculinidad, .*/
 
 file = File.open('poblacion.sql', 'w')
@@ -20,13 +21,13 @@ Dir.glob('scraped/Poblacion/*.xls').each do |file_name|
   end
   
   if depto_id != "000"
-    next
+    next unless provincia_id == "06" # Exceptuando a la Provincia de Buenos Aires
   end
 
   book = Spreadsheet.open file_name
   worksheet = book.worksheet 0
   first_cell = worksheet.row(0)[0]
-  if first_cell =~ CAPTURES_REGEX
+  if first_cell =~ PROVINCIA_CAPTURES_REGEX || first_cell =~ CAPITAL_CAPTURES_REGEX
     provincia = $1
     tipo_de_departamento = $2
     depto = $3
