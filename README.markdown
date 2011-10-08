@@ -18,19 +18,19 @@ La idea es que en el futuro genere otros archivos .sql con otros aspectos del Ce
 
 Para correrlo: 
 
-* ruby scrape.rb
+    ruby scrape.rb
 
 Esto va a generar el directorio scraped y va a tirar todos los .xls ahí adentro. 
 
-* ruby scrape_viviendas.rb
+    ruby scrape_viviendas.rb
 
 Esto va a generar el directorio scraped/Viviendas y va a tirar todos los .xls ahí adentro. 
 
-* ruby scrape_poblacion.rb
+    ruby scrape_poblacion.rb
 
 Esto va a generar el directorio scraped/Poblacion y va a tirar todos los .xls ahí adentro. 
 
-* ruby scrape_hogares.rb
+    ruby scrape_hogares.rb
 
 Esto va a generar el directorio scraped/Hogares y va a tirar todos los .xls ahí adentro. 
 
@@ -38,7 +38,7 @@ Esto va a generar el directorio scraped/Hogares y va a tirar todos los .xls ahí
 
 Este script depende de (scrape_poblacion.rb)
 
-* ruby process\_poblacion\_spreadsheets.rb
+    ruby process\_poblacion\_spreadsheets.rb
 
 Genera un archivo poblacion.sql con las siguientes columnas: PROVINCIA, DEPARTAMENTO, EDAD, VARONES\_COUNT, MUJERES\_COUNT
 
