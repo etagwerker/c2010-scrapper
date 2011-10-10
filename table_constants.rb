@@ -7,8 +7,8 @@ DEPARTAMENTOS_TABLE_SQL = <<EOF
 CREATE TABLE departamentos
 (
   id serial NOT NULL,
-  nombre character varying(50),
-  provincia character varying(50),
+  nombre character varying(100),
+  provincia character varying(100),
   total_mujeres integer,
   total_varones integer,
   edad integer,
