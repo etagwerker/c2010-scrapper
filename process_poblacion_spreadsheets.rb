@@ -13,6 +13,11 @@ file.puts DEPARTAMENTOS_TABLE_SQL
 
 puts "Generando SQL para información de Población"
 
+def escape_characters_in_string(string)
+  pattern = /(\'|\"|\.|\*|\/|\-|\\)/
+  string.gsub(pattern){|match|"\\"  + match} # <-- Trying to take the currently found match and add a \ before it I have no idea how to do that).
+end
+
 Dir.glob('scraped/Poblacion/*.xls').each do |file_name|
   if file_name =~ /pcia(\d+)-depto(\d+)/
     provincia_id = $1
@@ -45,7 +50,7 @@ Dir.glob('scraped/Poblacion/*.xls').each do |file_name|
   
   worksheet.each_with_index do |row, index|
     if row[0] =~ /^(\d+)( y más)?$/
-      file.puts "INSERT INTO departamentos (provincia, nombre, edad, total_varones, total_mujeres) VALUES('#{provincia}', '#{depto}', #{row[0].to_i}, #{row[2].to_i}, #{row[3].to_i});"
+      file.puts "INSERT INTO departamentos (provincia, nombre, edad, total_varones, total_mujeres) VALUES('#{provincia}', $$#{depto}$$, #{row[0].to_i}, #{row[2].to_i}, #{row[3].to_i});"
     end
     
     if index > 150
