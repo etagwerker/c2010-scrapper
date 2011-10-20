@@ -7,4 +7,6 @@ multi_xml -v0.4.0
 net-http-digest_auth -v1.1.1
 net-http-persistent -v1.9
 nokogiri -v1.5.0
+ruby-ole -v1.2.11.2
+spreadsheet -v0.6.5.9
 webrobots -v0.0.11
